@@ -1,28 +1,31 @@
 {
-    "name":"Example Listing",
-    "id":"com.vrchat.example-listing",
+    "name":"VPM Repository for package-listing-action bug report",
+    "id":"io.github.anataw12.vpm-repository-for-package-listing-action-bug-report",
     "url":"https://vrchat-community.github.io/template-package-listing/index.json",
-    "author":{
-        "email":"developer@vrchat.com",
-        "name":"VRChat",
-        "url":"https://hello.vrchat.com"
+    "author": {
+        "email": "anatawa12@icloud.com",
+        "name":"anatawa12",
+        "url":"https://github.com/anatawa12"
     },
-    "description":"Example listing of VRChat packages",
+    "description":"VPM Repository for package-listing-action bug report",
     "infoLink":{
-        "url":"http://github.com/vrchat-community/template-package-listing",
-        "text":"View on GitHub"
+        "url": "https://github.com/anatawa12/vpm-repository-for-package-listing-action-bug-report",
+        "text": "View on GitHub"
     },
     "bannerUrl":"banner.png",
-    "githubRepos":[
-        "vrchat-community/clientsim"
-    ],
+    "githubRepos":[],
     "packages":[
         {
-            "name":"com.vrchat.udonsharp",
-            "releases":[
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.7/com.vrchat.UdonSharp.zip",
-                "https://github.com/vrchat-community/UdonSharp/releases/download/1.1.6/com.vrchat.UdonSharp-1.1.6.zip"
-            ]
+            "name":"listing-action-type-detection.1.depends-on-worlds",
+            "releases":[ "https://anatawa12.github.io/vpm-repo-for-vcc-bug-testing/listing-action-type-detection.1.depends-on-worlds.zip" ]
+        },
+        {
+            "name":"listing-action-type-detection.2.depends-on-1st",
+            "releases":[ "https://anatawa12.github.io/vpm-repo-for-vcc-bug-testing/listing-action-type-detection.2.depends-on-1st.zip" ]
+        },
+        {
+            "name":"listing-action-type-detection.3.depends-on-worlds-and-qvpen",
+            "releases":[ "https://anatawa12.github.io/vpm-repo-for-vcc-bug-testing/listing-action-type-detection.3.depends-on-worlds-and-qvpen.zip" ]
         }
     ]
 }
